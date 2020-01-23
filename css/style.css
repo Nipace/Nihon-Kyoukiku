@@ -87,9 +87,10 @@ body{
 }
 
 .messagetext {
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 5px 25px;
-    font-size: 13px;
+    font-size: 15px;
+    margin-left: 0px;
 }
 
 .message .item {
@@ -272,8 +273,8 @@ and (max-device-width : 1024px)  {
 .ourteachers
 {
 	margin-top: 30px;
-	min-height: 500px;
-	margin-bottom: 30px;
+	min-height: 400px;
+	margin-bottom: 5px;
 }
 .ourteachers h2
 {   font-size: 28px!important;
