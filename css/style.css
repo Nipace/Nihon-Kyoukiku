@@ -126,16 +126,25 @@ body{
     background-color: rgb(3, 99, 244);
 }
 /* map */
-.map-address h4 span {
-    margin: 20px;
-    padding-left: 120px;
-    font-size: 25px;
+.map
+{
+	min-height:480px;
+	background-color: #F4F4F4;
+
 }
-.map-address h4 {
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-    margin: 10px;
-    font-weight: 500;
+.map-address h3
+{
+	font-size: 25px;		
+font-family: 'Raleway', sans-serif;
+	margin: 10px;
+	font-weight: 500;
+	
+}
+.map-address h3 span
+{
+	color:#333363;
+	margin: 10px;
+	font-size:25px;
 }
 
 /* footer start */
@@ -194,7 +203,17 @@ body{
        margin-left: 55px;
        margin-bottom:-35px;
    }
+   .ourbtn{
+    justify-content: center;
+   }
     
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    .ourtext{
+      padding-top: 250px;
+    }
 }
 /* About US */
 .officeimg img{
@@ -226,8 +245,8 @@ body{
 }
 .testimonial-inner img
 {
-	height:230px;
-	width:230px;
+	height:210px;
+	width:210px;
 	border-radius: 50%;
 	margin-bottom: 30px;
 }
