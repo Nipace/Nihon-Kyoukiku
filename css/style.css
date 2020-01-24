@@ -213,6 +213,16 @@ font-family: 'Raleway', sans-serif;
    .ourbtn{
     justify-content: center;
    }
+   .message .media-left img {
+	width: 350px;
+	height: 260px;
+    display: block;
+	border-radius: 50%;
+}
+.japmapimg{
+    padding-right: 100px !important;
+    padding-left:0px;
+}
     
 }
 @media only screen 
