@@ -9,7 +9,12 @@ body{
     overflow-y: scroll;
 	padding: 0;
 }
+
+.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
+    background: none !important;
+    color: #F41F03;}
 #logo{
+
     height: 80px;
     width: 80px;
 }
@@ -31,7 +36,7 @@ body{
     background:rgb(199, 198, 197);
 }
 .main-txt{
-    padding-top: 10rem;
+    padding-top: 16rem;
     color:white;
    
 }
@@ -108,7 +113,7 @@ body{
 	width: 350px;
 	height: 350px;
     display: block;
-	border-radius: 50%;
+	
 }
 
 .message.messagetext {
@@ -172,7 +177,14 @@ font-family: 'Raleway', sans-serif;
         text-decoration:none;
         color:#4180CB;
 } 
+.top-nav-collapse
+{
+    padding:0px;
+    margin:0px;
+    background-color: #152F4F!important;
+    height:80px;
 
+}
 .about-company i{
     font-size: 25px;
 }
@@ -199,6 +211,10 @@ font-family: 'Raleway', sans-serif;
     .secvice2{
         margin-top: 30px;
     }
+    #logo
+    {
+        margin-top: -20px;
+    }
     .services-col
     {
         margin:5px;
@@ -214,11 +230,16 @@ font-family: 'Raleway', sans-serif;
     justify-content: center;
    }
    .message .media-left img {
-	width: 350px;
-	height: 260px;
-    display: block;
-	border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    display:inline-block;
+    }
+  
+.myrow{
+    justify-content: center;
+    padding-bottom: 30px;
 }
+
 .japmapimg{
     padding-right: 100px !important;
     padding-left:0px;
@@ -238,6 +259,7 @@ and (max-device-width : 1024px)  {
     padding-top: 80px;
     padding-bottom: 30px;
 }
+
 
 /* testimonial */
 
@@ -324,4 +346,11 @@ and (max-device-width : 1024px)  {
 .ourteachers-text img{
     height:250px;
     width:250px;
+}
+@media only screen and (max-width: 1600px) {
+
+    .main-txt{
+        padding-top: 18rem;
+       
+    }
 }
